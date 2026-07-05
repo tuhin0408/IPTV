@@ -55,8 +55,8 @@ https://m3u-tvb.pages.dev/ics.m3u8
 #======  NOW TV ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",NOW Sports 616⁴ᵏ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745270.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",NOW Sports 616⁴ᵏ
 http://starhub.pro/live/farhat-3379/67897-913379/745270.ts
+http://fastshare1.com/live/25711345/late8airline/745270.ts
 
 #======  IRIB ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5lB7eKE.png",IRIB⁴ᵏ
@@ -85,6 +85,7 @@ http://198.195.239.50:8095/unt-s/video.m3u8
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745202.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/745202.ts
+http://fastshare1.com/live/25711345/late8airline/745202.ts
 
 #======  SUPER SPORTS ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rC5rdnX.png",SuperSports Extraᴴᴰ
@@ -138,6 +139,7 @@ http://starhub.pro/live/farhat-3379/67897-913379/751355.ts
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/748388.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/748388.ts
+http://fastshare1.com/live/25711345/late8airline/748388.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᶠᴴᴰ
 https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN SPORTSᴴᴰ
