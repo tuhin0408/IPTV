@@ -1,0 +1,103 @@
+name: Merge M3U Playlists
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows you to run it manually anytime
+
+# CRITICAL: Grant write permissions so the runner can push changes back to the repo
+permissions:
+  contents: write
+
+# Fix Node.js 20 deprecation warning by forcing Node 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Run Merge Script
+      run: |
+        python -c '
+        import urllib.request
+        import ssl
+        import os
+
+        urls = [
+            "https://raw.githubusercontent.com/tuhin0408/GlobalStream-IPTV/refs/heads/main/playlist/wc.m3u",
+            "https://aponn.vercel.app/iptv.m3u",
+            "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/World_Cup.m3u"
+        ]
+
+        # Ignore basic SSL verification issues if they arise
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+
+        # Ensure the playlist directory exists
+        os.makedirs("playlist", exist_ok=True)
+
+        unique_streams = {}
+        current_metadata = []
+
+        for url in urls:
+            try:
+                print(f"Fetching: {url}")
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+                with urllib.request.urlopen(req, context=ctx, timeout=15) as response:
+                    lines = response.read().decode("utf-8").splitlines()
+                    
+                    for line in lines:
+                        line_stripped = line.strip()
+                        if not line_stripped or line_stripped == "#EXTM3U":
+                            continue
+                        
+                        # If it is metadata (#EXTINF, etc.), store it temporarily
+                        if line_stripped.startswith("#"):
+                            current_metadata.append(line_stripped)
+                        else:
+                            # It is a stream URL. Use URL as key to remove duplicates.
+                            # Keeps the first appearance of the link.
+                            if line_stripped not in unique_streams:
+                                unique_streams[line_stripped] = list(current_metadata)
+                            current_metadata = [] # Reset for next stream
+            except Exception as e:
+                print(f"Error reading {url}: {e}")
+                current_metadata = [] # Reset on error
+
+        if unique_streams:
+            with open(os.path.join("playlist", "sports.m3u"), "w", encoding="utf-8") as outfile:
+                outfile.write("#EXTM3U\n")
+                for stream_url, metadata_lines in unique_streams.items():
+                    for meta in metadata_lines:
+                        outfile.write(meta + "\n")
+                    outfile.write(stream_url + "\n")
+            print(f"Successfully merged {len(unique_streams)} unique streams.")
+        else:
+            print("Warning: No playlist data was successfully fetched.")
+        '
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # Track the specific folder and file
+        git add playlist/sports.m3u
+        
+        # Only commit and push if the file actually changed
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Automated M3U Playlist Update"
+          git push
+        fi
