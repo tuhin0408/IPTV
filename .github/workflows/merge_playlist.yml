@@ -2,7 +2,7 @@ name: Merge M3U Playlists
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 */5 * * *'
   workflow_dispatch: # Allows you to run it manually anytime
 
 # CRITICAL: Grant write permissions so the runner can push changes back to the repo
