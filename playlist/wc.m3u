@@ -30,6 +30,18 @@ http://starhub.pro/live/farhat-3379/67897-913379/745270.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",NOW Sports 616⁴ᵏ
 http://fastshare1.com/live/25711345/late8airline/745270.ts
 
+#======  BBC ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",BBC⁴ᵏ
+http://vca.easy747.com/donad220/8U01MGV/1436345
+
+#======  M6 ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",M6⁴ᵏ
+http://vca.easy747.com/donad220/8U01MGV/1281446
+
+#======  RAI ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",RAI⁴ᵏ
+http://vca.easy747.com/donad220/8U01MGV/1281054
+
 #======  IRIB ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5lB7eKE.png",IRIB⁴ᵏ
 https://live-aburayhan1107.telewebion.ir/ek/faratar/live/2160p/index.m3u8
@@ -42,62 +54,9 @@ https://live-aburayhan1107.telewebion.ir/ek/faratar/live/720p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DuqjWoT.png",TRT1²ᴷ
 http://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#======  Unite8 Sports ============
-#EXTINF:-1 tvg-logo="https://i.imgur.com/P54rWCP.png",UNITE8 SPORTS 1ᶠᴴᴰ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/741567.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/P54rWCP.png",UNITE8 SPORTS 1ᶠᴴᴰ
-http://starhub.pro/live/farhat-3379/67897-913379/741567.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᵇᵈᶦˣ
-http://198.195.239.50:8095/unt-s/video.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745202.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
-http://starhub.pro/live/farhat-3379/67897-913379/745202.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
-http://fastshare1.com/live/25711345/late8airline/745202.ts
-
-#======  SUPER SPORTS ============
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rC5rdnX.png",SuperSports Extraᴴᴰ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745195.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rC5rdnX.png",SuperSports Extraᴴᴰ
-http://starhub.pro/live/farhat-3379/67897-913379/741566.ts
-
-#======  beIN ============
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS 1ᴴᴰ
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/747283.ts
-https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095904.m3u8
-https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2097322.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
-http://starhub.pro/live/farhat-3379/67897-913379/747283.ts
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 2 Maxᶠᴴᴰ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/744524.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 2 Maxᶠᴴᴰ
-http://starhub.pro/live/farhat-3379/67897-913379/744524.ts
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 6 Frenchᶠᴴᴰ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/744527.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 6 Frenchᶠᴴᴰ
-http://starhub.pro/live/farhat-3379/67897-913379/744527.ts
-
-#======  TELEMUNDO ============
-#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
-http://vca.easy747.com/live/donad220/8U01MGV/71428.m3u8
-#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
-http://vca.easy747.com/live/donad220/8U01MGV/30680.m3u8
-#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
-http://vca.easy747.com/live/donad220/8U01MGV/194519.m3u8
-#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
-http://vca.easy747.com/live/donad220/8U01MGV/69086.m3u8
-
 #======  FOX ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
 http://vca.easy747.com/donad220/8U01MGV/1436344
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
-https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095902.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
 https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095901.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
@@ -105,10 +64,8 @@ https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095900.m3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
 https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095899.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1 (Events only)
 http://vca.easy747.com/donad220/8U01MGV/1436346
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1ᶠᴴᴰ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/751354.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1ᶠᴴᴰ
@@ -164,6 +121,59 @@ https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/spo-s5-n/1745
 http://vca.easy747.com/live/donad220/8U01MGV/1438206.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sLjlYNz.png",FUSSBALL.TV2⁴ᵏ
 https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/spo-s5-n/1745181.m3u8
+
+#======  TELEMUNDO ============
+#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
+http://vca.easy747.com/live/donad220/8U01MGV/71428.m3u8
+#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
+http://vca.easy747.com/live/donad220/8U01MGV/30680.m3u8
+#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
+http://vca.easy747.com/live/donad220/8U01MGV/194519.m3u8
+#EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
+http://vca.easy747.com/live/donad220/8U01MGV/69086.m3u8
+
+#======  Unite8 Sports ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/P54rWCP.png",UNITE8 SPORTS 1ᶠᴴᴰ
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/741567.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/P54rWCP.png",UNITE8 SPORTS 1ᶠᴴᴰ
+http://starhub.pro/live/farhat-3379/67897-913379/741567.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᵇᵈᶦˣ
+http://198.195.239.50:8095/unt-s/video.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745202.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
+http://starhub.pro/live/farhat-3379/67897-913379/745202.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
+http://fastshare1.com/live/25711345/late8airline/745202.ts
+
+#======  SUPER SPORTS ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rC5rdnX.png",SuperSports Extraᴴᴰ
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745195.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rC5rdnX.png",SuperSports Extraᴴᴰ
+http://starhub.pro/live/farhat-3379/67897-913379/741566.ts
+
+#======  beIN ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS 1ᴴᴰ
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/747283.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095904.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2097322.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
+http://starhub.pro/live/farhat-3379/67897-913379/747283.ts
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 2 Maxᶠᴴᴰ
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/744524.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 2 Maxᶠᴴᴰ
+http://starhub.pro/live/farhat-3379/67897-913379/744524.ts
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 6 Frenchᶠᴴᴰ
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/744527.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 6 Frenchᶠᴴᴰ
+http://starhub.pro/live/farhat-3379/67897-913379/744527.ts
 
 #======  DAILY SERVER ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q2HT254.png",## ENGLISH ##
