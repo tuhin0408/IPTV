@@ -6,40 +6,11 @@ https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/916M44S.jpeg",🇧🇩 TOFFEE 2ᵇᵈᶦˣ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
 https://kazimmt.ami.bd/playlist/TF/TF-2.m3u8
-#EXTINF:-1  tvg-logo="https://i.imgur.com/XxfZpgv.jpeg",🇧🇩 TOFFEE 3ᵇᵈᶦˣ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
-#https://kazimmt.ami.bd/playlist/TF/TF-3.m3u8
-#EXTINF:-1  tvg-logo="https://i.imgur.com/53aSeDH.png",🇧🇩 TOFFEE 4ᵇᵈᶦˣ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
-#https://kazimmt.ami.bd/playlist/TF/TF-4.m3u8
-#EXTINF:-1  tvg-logo="https://i.imgur.com/53aSeDH.png",🇧🇩 TOFFEE 5ᵇᵈᶦˣ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
-#https://kazimmt.ami.bd/playlist/TF/TF-5.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/7lPOTCc.png",TOFFEE Match Recape
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
 https://kazimmt.ami.bd/playlist/TF/TF-6.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rC9MoX7.png",🇧🇩 SomoyTVᵇᵈᶦˣ
 http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᵇᵈᶦˣ
-#https://tv.emnetbd.com/flussonic/Tsports1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᶠᴴᴰ
-#http://vca.easy747.com/live/donad220/8U01MGV/1404538.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᶠᴴᴰ
-#http://starhub.pro/live/farhat-3379/67897-913379/52500.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᶠᴴᴰ
-#http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/52500.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᴴᴰ
-#http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/18452.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᴴᴰ
-#http://starhub.pro/live/farhat-3379/67897-913379/18452.ts
-##EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᴴᴰ
-#http://starhub.pro/live/farhat-3379/67897-913379/113069.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᴴᴰ
-#http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/113069.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᴴᴰ
-#http://starhub.pro/live/farhat-3379/67897-913379/130714.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W8uu5u1.png",🇧🇩 T Sportsᴴᴰ
-#http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/130714.ts
 #====== Bioscope World Cup ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/w91OYEI.png",Bioscopeᵇᵈᶦˣ
 https://fifa-stream-01.bioscopelive.com/out/v1/60e7608404004b1186261497b404630b/index.m3u8 |x-authorization=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMzI0NTg2MTU0MzM5NjE0NzIiLCJhdWQiOlsiMSJdLCJleHAiOjE4MTM4NTQ4NjgsIm5iZiI6MTc4MjMxODg2OCwiaWF0IjoxNzgyMzE4ODY4LCJqdGkiOiIwMmY3Y2Y2M2I5OTFiMjY0Mzk0YmU2MjE0ZDJhNzI4MWYzZTExNWFkMGE4OGJhZTBmYTcyZjkwMTJmOTJmNGU1ZTA1N2Y3NGMxOGViODQzYyIsInNjb3BlcyI6WyJtYW5hZ2VfcHJvZmlsZXMiXSwicGlkIjoiMjMyNDU4Njc1MjYyMDA1MjQ4In0.kr0qIPfh66MktNCEAW_AcqFPzzX58VdP2JkVNzOjiOaig25qi9H6rttTcnKzJZoHD0Urj6YEom2S3Z_VujPXSugq9UXPFrzFbBA9zD-nMDgsNQrBr15K2uTAweqTClFduLPLyi-JvZWXpq8UbHybjhoen-Q3nRyHzOsQakQp8nRhR2yUYCiDBjwDPzF56WCVUWAYr1M19xRyiGJTqLmDI1KrT8CXwVdZFBZWqAptUnFMI6TEcoFSsRSMhN9_8KZCXbezExsToFIPbnIxp7ZPDD-qGT-KZ4GfPWrBUS93fiR4p8UzHn9Q3Bwba_mTxq3Fy8OhHilKCefoVTmyngBHwodjTOw8D9JkYc5-16QmYS6tBGbdgPRHKklTgkNYDlrQHCSQuNLTI_pRskw5oygUXkudpiPcUM9IFz8ud-rbbxVii-0ISXtwUIaEv_HBf_aA9cCGttN7ZdEquMTxbIhR27EMTwj5RdgE-i64iH__Xv3Ua4A5tzJjA5XR9Cqrsa3k84uCJlk74Z-8KBpvTcbMjAOhtqZOfimw736vSBgV9Xdk4dsoxpIfg90g38tfvCgYSwDgq5ulxTl3ygq7kS6BY1kT2m_R1T2Xdorm-75kbJ9iTn9IGa9PruwtmrtLlbuT2uivaw3E05U_UCrMwqeFZslbGtjAij95j083wmxXqUQ
@@ -52,7 +23,9 @@ https://m3u-tvb.pages.dev/ics.m3u8
 #======  NOW TV ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",NOW Sports 616⁴ᵏ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745270.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",NOW Sports 616⁴ᵏ
 http://starhub.pro/live/farhat-3379/67897-913379/745270.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xarBMwe.png",NOW Sports 616⁴ᵏ
 http://fastshare1.com/live/25711345/late8airline/745270.ts
 #======  IRIB ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5lB7eKE.png",IRIB⁴ᵏ
@@ -78,6 +51,7 @@ http://198.195.239.50:8095/unt-s/video.m3u8
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745202.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/745202.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yTl9XIh.png",UNITE8 SPORTS 2ᶠᴴᴰ
 http://fastshare1.com/live/25711345/late8airline/745202.ts
 #======  SUPER SPORTS ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rC5rdnX.png",SuperSports Extraᴴᴰ
@@ -89,6 +63,8 @@ http://starhub.pro/live/farhat-3379/67897-913379/741566.ts
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/747283.ts
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095904.m3u8
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2097322.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN SPORTS MAX⁴ᵏ
 http://starhub.pro/live/farhat-3379/67897-913379/747283.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9QifSzE.png",beIN Sports 2 Maxᶠᴴᴰ
@@ -109,23 +85,36 @@ http://vca.easy747.com/live/donad220/8U01MGV/194519.m3u8
 #EXTINF:-1 tvg-logo="https://go4.pw/AMERICA/USA/TELEMUNDO.png",LAT - TELEMUNDO
 http://vca.easy747.com/live/donad220/8U01MGV/69086.m3u8
 #======  FOX ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
+http://vca.easy747.com/donad220/8U01MGV/1436344
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095902.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095901.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095900.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/s3/2095899.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1 (Events only)
+http://vca.easy747.com/donad220/8U01MGV/1436346
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1ᶠᴴᴰ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/751354.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/751354.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1ᶠᴴᴰ
 https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/olHih83.png",FS2ᶠᴴᴰ
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/751355.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/olHih83.png",FS2ᶠᴴᴰ
-http://starhub.pro/live/farhat-3379/67897-913379/751355.ts
 #======  TSN ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᶠᴴᴰ
+http://vca.easy747.com/donad220/8U01MGV/42917
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᶠᴴᴰ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/748388.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/748388.ts
-http://fastshare1.com/live/25711345/late8airline/748388.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᶠᴴᴰ
+http://fastshare1.com/live/25711345/late8airline/748388.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᴴᴰ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/spo-s5-n/902070.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN1ᴴᴰ
 https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N09UZWA.png",TSN SPORTSᴴᴰ
 https://chatgpt.hereisman.net/playlist/52458/load-playlist?|Referer=https://gooz.aapmains.net
@@ -136,20 +125,28 @@ http://vca.easy747.com/live/donad220/8U01MGV/1438202.m3u8
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/742610.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Sz2PpOr.png",FUSSBALL.TV1ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/742610.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Sz2PpOr.png",FUSSBALL.TV1ᶠᴴᴰ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/sps1/1745176.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zcmZoUy.png",FUSSBALL.TV2ᶠᴴᴰ
 http://vca.easy747.com/live/donad220/8U01MGV/1438203.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zcmZoUy.png",FUSSBALL.TV2ᶠᴴᴰ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/742611.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zcmZoUy.png",FUSSBALL.TV2ᶠᴴᴰ
 http://starhub.pro/live/farhat-3379/67897-913379/742611.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zcmZoUy.png",FUSSBALL.TV2ᶠᴴᴰ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/spo-s5-n/1745178.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wxwxBTU.png",FUSSBALL.TV1⁴ᵏ
 http://vca.easy747.com/live/donad220/8U01MGV/1438205.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wxwxBTU.png",FUSSBALL.TV1⁴ᵏ
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745269.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wxwxBTU.png",FUSSBALL.TV1⁴ᵏ
 http://starhub.pro/live/farhat-3379/67897-913379/745269.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wxwxBTU.png",FUSSBALL.TV1⁴ᵏ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/spo-s5-n/1745180.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sLjlYNz.png",FUSSBALL.TV2⁴ᵏ
 http://vca.easy747.com/live/donad220/8U01MGV/1438206.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sLjlYNz.png",FUSSBALL.TV2⁴ᵏ
+https://raw.githubusercontent.com/tuhin0408/OopsTv/refs/heads/main/spo-s5-n/1745181.m3u8
 #======  DAILY SERVER ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q2HT254.png",## ENGLISH ##
 http://vca.easy747.com/donad220/8U01MGV/317157
@@ -169,18 +166,6 @@ http://vca.easy747.com/donad220/8U01MGV/317145
 http://vca.easy747.com/donad220/8U01MGV/364450
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/317144
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/364449
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/317143
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/364446
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/317142
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/364445
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",EN - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/317141
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xfGHq5P.png",## FRENCH ##
 http://vca.easy747.com/donad220/8U01MGV/317156
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - MATCH 1
@@ -199,18 +184,6 @@ http://vca.easy747.com/donad220/8U01MGV/317138
 http://vca.easy747.com/donad220/8U01MGV/364432
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/317137
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363846
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/317136
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363844
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/317135
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363843
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",FR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/317134
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sRggvtS.png",## ARABIC ##
 http://vca.easy747.com/donad220/8U01MGV/317155
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - MATCH 1
@@ -229,18 +202,6 @@ http://vca.easy747.com/donad220/8U01MGV/317131
 http://vca.easy747.com/donad220/8U01MGV/363782
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/314846
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363781
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/303446
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363772
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/275304
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363770
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",AR - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/275299
 #EXTINF:-1 tvg-logo="https://i.imgur.com/YUICYSq.png",## GERMAN ##
 http://vca.easy747.com/donad220/8U01MGV/317153
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - MATCH 1
@@ -251,26 +212,6 @@ http://vca.easy747.com/donad220/8U01MGV/273443
 http://vca.easy747.com/donad220/8U01MGV/362590
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/273442
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362577
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273441
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362564
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273440
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362563
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273439
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362561
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273438
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362557
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",DE - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273437
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QoR4P1P.png",## SPANISH ##
 http://vca.easy747.com/donad220/8U01MGV/317154
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - MATCH 1
@@ -281,26 +222,6 @@ http://vca.easy747.com/donad220/8U01MGV/273436
 http://vca.easy747.com/donad220/8U01MGV/363758
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/273435
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363756
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273434
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363755
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273433
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363735
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273432
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363680
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273431
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/363645
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",SP - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273430
 #EXTINF:-1 tvg-logo="https://i.imgur.com/f5iTVvb.png",## ITALIAN ##
 http://vca.easy747.com/donad220/8U01MGV/317152
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - MATCH 1
@@ -311,26 +232,6 @@ http://vca.easy747.com/donad220/8U01MGV/273421
 http://vca.easy747.com/donad220/8U01MGV/362529
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/273420
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362527
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273419
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362520
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273418
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362519
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273417
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362508
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273416
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/362504
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",IT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273415
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JTzg33v.png",## PORTUGUESE ##
 http://vca.easy747.com/donad220/8U01MGV/317151
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - MATCH 1
@@ -341,26 +242,6 @@ http://vca.easy747.com/donad220/8U01MGV/273414
 http://vca.easy747.com/donad220/8U01MGV/325604
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/273413
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/325603
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273412
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/325602
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273411
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/325601
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/231828
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/324012
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/214342
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/323990
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",PT - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/214324
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZOeKoxE.png",## ALBANIAN ##
 http://vca.easy747.com/donad220/8U01MGV/362550
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - MATCH 1
@@ -371,26 +252,6 @@ http://vca.easy747.com/donad220/8U01MGV/273428
 http://vca.easy747.com/donad220/8U01MGV/348196
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - MATCH 2
 http://vca.easy747.com/donad220/8U01MGV/273427
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/346031
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273426
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/346030
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273425
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/331961
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273424
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/329631
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273423
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/325606
-#EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",ALB - NO MATCH
-#http://vca.easy747.com/donad220/8U01MGV/273422
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jW0uDRB.png",## TURKISH ##
 http://vca.easy747.com/donad220/8U01MGV/1388013
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",TR - MATCH 1
