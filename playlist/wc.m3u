@@ -56,6 +56,12 @@ https://live-aburayhan1107.telewebion.ir/ek/faratar/live/720p/index.m3u8
 http://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #======  FOX ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOXᶠᴴᴰ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
 http://vca.easy747.com/live/donad220/8U01MGV/1436344.m3u8
 
