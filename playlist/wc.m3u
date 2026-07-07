@@ -1,9 +1,9 @@
 #EXTM3U
 #======  BANGLADESH ============
-#EXTINF:-1  tvg-logo="https://i.imgur.com/ckDB9FB.jpeg",🇧🇩 TOFFEE 1ᵇᵈᶦˣ
+#EXTINF:-1  tvg-logo="https://i.imgur.com/XWfpAT1.jpeg",🇧🇩 TOFFEE 1ᵇᵈᶦˣ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
 https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8
-#EXTINF:-1  tvg-logo="https://i.imgur.com/916M44S.jpeg",🇧🇩 TOFFEE 2ᵇᵈᶦˣ
+#EXTINF:-1  tvg-logo="https://i.imgur.com/QFS3TQs.jpeg",🇧🇩 TOFFEE 2ᵇᵈᶦˣ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
 https://kazimmt.ami.bd/playlist/TF/TF-2.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/7lPOTCc.png",TOFFEE Match Recapeᵇᵈᶦˣ
