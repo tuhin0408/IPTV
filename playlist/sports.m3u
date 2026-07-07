@@ -48,6 +48,12 @@ https://live-aburayhan1107.telewebion.ir/ek/faratar/live/720p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DuqjWoT.png",TRT1²ᴷ
 http://tv-trt1.medya.trt.com.tr/master.m3u8
 #======  FOX ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOXᶠᴴᴰ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MI6RRUR.png",FOX (Events only)
 http://vca.easy747.com/live/donad220/8U01MGV/1436344.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hDmosMm.png",FS1 (Events only)
@@ -268,11 +274,6 @@ http://vca.easy747.com/donad220/8U01MGV/317165
 #EXTINF:-1 tvg-logo="https://go4.pw/wc26.png",TR - MATCH 2ᶠᴴᴰ ᴮᴷ¹
 http://vca.easy747.com/donad220/8U01MGV/214284
 #=================================
-🖥️ Developed by: Monirul Islam
-🔗 Telegram: https://t.me/monirul_Islam_SM
-🕒 Last Updated: 2026-06-10 17:38:24 (BD Time)
-📺 Channels Count: 20+
-🔒 Usage: Personal / Educational
 #======= World Cup BD ================
 #EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="world cup",Football World Cup
 http://114.130.57.233:8080/BTV/video.m3u8?token=SkQuhAXZxgBan1
@@ -306,9 +307,3 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1223d5105392cabf1bb9c2c1fdf6539a:340b409f4b8f78a343e0363a7938df38
 https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="FIFA WC 2026",FOX SPORTS
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
