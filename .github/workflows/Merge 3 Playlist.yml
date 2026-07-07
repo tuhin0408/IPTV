@@ -3,7 +3,7 @@ name: Merge 3 Playlist
 on:
   schedule:
     # Runs every hour, at the start of the hour
-    - cron: '0 * * * *'
+    - cron: '*/13 * * * *'
   workflow_dispatch:
 
 permissions:
