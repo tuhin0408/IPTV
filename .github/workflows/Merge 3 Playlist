@@ -1,0 +1,49 @@
+name: Merge 3 Playlist
+
+on:
+  schedule:
+    # Runs every hour, at the start of the hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-playlists:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and create tapmad.m3u
+        run: |
+          curl -s "https://raw.githubusercontent.com/srhady/tapmad-bd/refs/heads/main/tapmad_bd.m3u" > tapmad.m3u
+
+      - name: Download and merge fancode.m3u
+        run: |
+          # Fetch the first file and append it to fancode.m3u
+          curl -s "https://raw.githubusercontent.com/sm-monirulislam/FanCode-Auto-Update-Playlist/refs/heads/main/fancode_bd.m3u" > fancode.m3u
+          
+          # Append a newline to ensure clean separation, then append the second file
+          echo "" >> fancode.m3u
+          curl -s "https://raw.githubusercontent.com/sm-monirulislam/FanCode-Auto-Update-Playlist/refs/heads/main/fancode_in.m3u" >> fancode.m3u
+
+      - name: Download and create TF.m3u
+        run: |
+          curl -s "https://raw.githubusercontent.com/BINOD-XD/Toffee-Auto-Update-Playlist/refs/heads/main/toffee_NS_Player.m3u" > TF.m3u
+
+      - name: Commit and push changes
+        run: |
+          # Configure Git using the standard GitHub Actions Bot credentials
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Stage the specific playlist files
+          git add tapmad.m3u fancode.m3u TF.m3u
+          
+          # Check if there are actually any changes to commit so the workflow doesn't fail on empty commits
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected in the playlists. Skipping commit."
+          else
+            git commit -m "Automated Playlist Update: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
+            git push
+          fi
