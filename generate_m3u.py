@@ -9,7 +9,13 @@ def fetch_and_filter():
         print("Error: XTREAM_SERVERS secret is empty or missing.")
         return
 
-    servers = json.loads(servers_json)
+try:
+        servers = json.loads(servers_json)
+    except json.JSONDecodeError as je:
+        print("❌ Error: XTREAM_SERVERS formatting is invalid JSON.")
+        print(f"Details: {str(je)}")
+        return
+
     m3u_lines = ["#EXTM3U\n"]
     
     # Target keywords for matching channels
