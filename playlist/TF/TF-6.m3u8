@@ -1,12 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:4
-#EXT-X-STREAM-INF:BANDWIDTH=1587440,CODECS="avc1.640028,mp4a.40.2",RESOLUTION=1920x1080,FRAME-RATE=25.000
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/0/master_2000.m3u8?hdntl=Expires=1783754701~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiM2M5ZTQwYTctYzk5NC00YzlmLWFkMTYtODkyMGNlNzdjYzM2In0~Signature=AWIR_5Fb0wX3JaTY8qxqQNNEPwt6ZimAQ44KfuzrD-hnmSF_R3_X5UMonZck19Pq77zQE7XIQcfWi_eUsVgQupIJ_NEA
-#EXT-X-STREAM-INF:BANDWIDTH=1253008,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=25.000
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/1/master_1800.m3u8?hdntl=Expires=1783754701~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiM2M5ZTQwYTctYzk5NC00YzlmLWFkMTYtODkyMGNlNzdjYzM2In0~Signature=AWIR_5Fb0wX3JaTY8qxqQNNEPwt6ZimAQ44KfuzrD-hnmSF_R3_X5UMonZck19Pq77zQE7XIQcfWi_eUsVgQupIJ_NEA
-#EXT-X-STREAM-INF:BANDWIDTH=1065264,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=25.000
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/2/master_1500.m3u8?hdntl=Expires=1783754701~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiM2M5ZTQwYTctYzk5NC00YzlmLWFkMTYtODkyMGNlNzdjYzM2In0~Signature=AWIR_5Fb0wX3JaTY8qxqQNNEPwt6ZimAQ44KfuzrD-hnmSF_R3_X5UMonZck19Pq77zQE7XIQcfWi_eUsVgQupIJ_NEA
-#EXT-X-STREAM-INF:BANDWIDTH=834128,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=25.000
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/3/master_1000.m3u8?hdntl=Expires=1783754701~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiM2M5ZTQwYTctYzk5NC00YzlmLWFkMTYtODkyMGNlNzdjYzM2In0~Signature=AWIR_5Fb0wX3JaTY8qxqQNNEPwt6ZimAQ44KfuzrD-hnmSF_R3_X5UMonZck19Pq77zQE7XIQcfWi_eUsVgQupIJ_NEA
-#EXT-X-STREAM-INF:BANDWIDTH=602992,CODECS="avc1.42c015,mp4a.40.2",RESOLUTION=426x240,FRAME-RATE=25.000
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/4/master_600.m3u8?hdntl=Expires=1783754701~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiM2M5ZTQwYTctYzk5NC00YzlmLWFkMTYtODkyMGNlNzdjYzM2In0~Signature=AWIR_5Fb0wX3JaTY8qxqQNNEPwt6ZimAQ44KfuzrD-hnmSF_R3_X5UMonZck19Pq77zQE7XIQcfWi_eUsVgQupIJ_NEA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
+https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/index.m3u8?edge-cache-token=Expires=1783712301~Starts=1783705101~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiOTBhNTg1MzUtNjIzYy00YzgwLTg4MDYtZjY1YjY5NGU2YjcyIn0~Signature=lQRFsKLg6wzKafv_cinMcPJmJTbvWxWg5Dc2gVOFZS5IrrCS1vcMdjNvqYdeYKzSP6JUOP9a-XfFRiB2qKtlCA
