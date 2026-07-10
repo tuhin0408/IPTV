@@ -1,2 +1,3 @@
 #EXTM3U
-#EXTVLCOPT:http-user-agent=okhttp/5.1.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
+https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/index.m3u8?edge-cache-token=Expires=1783712301~Starts=1783705101~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiOTBhNTg1MzUtNjIzYy00YzgwLTg4MDYtZjY1YjY5NGU2YjcyIn0~Signature=lQRFsKLg6wzKafv_cinMcPJmJTbvWxWg5Dc2gVOFZS5IrrCS1vcMdjNvqYdeYKzSP6JUOP9a-XfFRiB2qKtlCA
