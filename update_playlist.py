@@ -13,24 +13,54 @@ def ensure_dir(file_path):
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
 def extract_m3u8_link(lines, channel_name):
-    """Scans the playlist lines for a specific channel and extracts ONLY its m3u8 link."""
+    """Scans the source playlist and extracts ONLY the m3u8 link."""
     for i, line in enumerate(lines):
         if line.startswith("#EXTINF") and channel_name in line.upper():
-            # Scan forward from the channel name
             for j in range(i + 1, len(lines)):
                 current_line = lines[j].strip()
-                
-                # If we hit the next channel before finding a link, stop looking
                 if current_line.startswith("#EXTINF"):
                     break
-                    
-                # Strictly capture only the line that is an HTTP link ending in/containing m3u8
                 if current_line.startswith("http") and "m3u8" in current_line:
                     return current_line
     return None
 
+def update_local_file(file_path, new_url):
+    """Updates only the stream link in the local file, preserving all other tags."""
+    # If the file doesn't exist yet, create it with a basic structure
+    if not os.path.exists(file_path):
+        ensure_dir(file_path)
+        with open(file_path, "w") as f:
+            f.write(f"#EXTM3U\n{new_url}\n")
+        return
+
+    # Read the existing file to preserve tags like #EXTVLCOPT
+    with open(file_path, "r") as f:
+        lines = f.readlines()
+
+    updated_lines = []
+    link_replaced = False
+
+    for line in lines:
+        # The actual stream link is the only line that starts directly with "http".
+        # Tags like user-agents start with "#" (e.g., #EXTVLCOPT:http-user-agent=...)
+        if line.strip().startswith("http") and not link_replaced:
+            # Swap in the new URL
+            updated_lines.append(f"{new_url}\n")
+            link_replaced = True
+        else:
+            # Keep the existing line (like your custom user agent)
+            updated_lines.append(line)
+
+    # If there was no http link to replace (e.g., broken file), append it
+    if not link_replaced:
+        updated_lines.append(f"{new_url}\n")
+
+    # Write the preserved content + the new link back to the file
+    with open(file_path, "w") as f:
+        f.writelines(updated_lines)
+
 def main():
-    # Fetch the latest playlist
+    # Fetch the latest source playlist
     req = urllib.request.Request(SOURCE_URL, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         with urllib.request.urlopen(req) as response:
@@ -43,22 +73,17 @@ def main():
     url_1 = extract_m3u8_link(lines, "FIFA WC CHANNEL 1")
     url_6 = extract_m3u8_link(lines, "FIFA WC CHANNEL 6")
 
-    # Save to TF-1
+    # Update TF-1
     if url_1:
-        ensure_dir(TARGET_1)
-        with open(TARGET_1, "w") as f:
-            # Writing the standard m3u header + the raw m3u8 link
-            f.write(f"#EXTM3U\n{url_1}\n")
-        print(f"Scraped TF-1: {url_1}")
+        update_local_file(TARGET_1, url_1)
+        print(f"Updated TF-1 with new link: {url_1}")
     else:
         print("Could not find m3u8 link for FIFA WC CHANNEL 1.")
 
-    # Save to TF-6
+    # Update TF-6
     if url_6:
-        ensure_dir(TARGET_6)
-        with open(TARGET_6, "w") as f:
-            f.write(f"#EXTM3U\n{url_6}\n")
-        print(f"Scraped TF-6: {url_6}")
+        update_local_file(TARGET_6, url_6)
+        print(f"Updated TF-6 with new link: {url_6}")
     else:
         print("Could not find m3u8 link for FIFA WC CHANNEL 6.")
 
