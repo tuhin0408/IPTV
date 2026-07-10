@@ -1,56 +1,91 @@
-name: Update TF Playlists
+name: UPDATE TF LINK IN WC PLAYLIST
 
 on:
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
+  schedule:
+    # Runs automatically every 6 hours. You can adjust the cron schedule if needed.
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows you to run the workflow manually from the Actions tab
 
 permissions:
-  contents: write # Needed to push changes back to the repo
+  contents: write
 
 jobs:
-  update-links:
+  update-m3u:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Create playlist directory if not exists
-        run: mkdir -p playlist/TF
-
-      - name: Fetch and Update M3U8 Files
+      - name: Run Update Script
         run: |
-          # Array mapping source files to destination files
-          # Format: "source_name:destination_name"
-          channels=(
-            "ch1.m3u8:TF-1.m3u8"
-            "ch2.m3u8:TF-2.m3u8"
-            "ch6.m3u8:TF-6.m3u8"
-          )
+          cat << 'EOF' > update.py
+          import urllib.request
 
-          BASE_URL="https://cdn-tt.pages.dev"
+          # URLs and Paths
+          source_url = "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update-Playlist/refs/heads/main/toffee_playlist.m3u"
+          local_file = "playlist/wc.m3u"
 
-          for pair in "${channels[@]}"; do
-            # Split the pair by colon
-            src="${pair%%:*}"
-            dest="${pair##*:}"
-            
-            echo "Fetching $BASE_URL/$src -> playlist/TF/$dest"
-            
-            # Fetch content, filter out the JSON block, and save to destination
-            curl -sL "$BASE_URL/$src" | sed '/^{/,/^}/d' > "playlist/TF/$dest"
-          done
+          # Fetch the source playlist
+          req = urllib.request.Request(source_url, headers={'User-Agent': 'Mozilla/5.0'})
+          try:
+              with urllib.request.urlopen(req) as response:
+                  source_content = response.read().decode('utf-8').splitlines()
+          except Exception as e:
+              print(f"Failed to fetch source playlist: {e}")
+              exit(1)
+
+          # Helper function to find the m3u8 link immediately following a specific channel name
+          def get_url_for_channel(lines, channel_name):
+              for i, line in enumerate(lines):
+                  if channel_name in line:
+                      # Search ahead for the next uncommented line (the stream URL)
+                      for j in range(i+1, len(lines)):
+                          if lines[j].strip() and not lines[j].strip().startswith('#'):
+                              return lines[j].strip()
+              return None
+
+          # Extract the new URLs
+          url_ch1 = get_url_for_channel(source_content, "FIFA WC CHANNEL 1")
+          url_ch6 = get_url_for_channel(source_content, "FIFA WC CHANNEL 6")
+
+          if not url_ch1 or not url_ch6:
+              print("Could not find the target channels in the source playlist. Aborting.")
+              exit(1)
+
+          # Read your local file
+          try:
+              with open(local_file, 'r', encoding='utf-8') as f:
+                  local_lines = f.readlines()
+          except FileNotFoundError:
+              print(f"File '{local_file}' not found in the repository.")
+              exit(1)
+
+          # Helper function to replace the m3u8 link for a specific channel in the local file
+          def replace_url_in_local(lines, channel_name, new_url):
+              for i, line in enumerate(lines):
+                  if channel_name in line:
+                      for j in range(i+1, len(lines)):
+                          if lines[j].strip() and not lines[j].strip().startswith('#'):
+                              lines[j] = new_url + "\n"
+                              return
+
+          # Update the URLs for your specific channels
+          replace_url_in_local(local_lines, "🇧🇩 TOFFEE LIVEᵇᵈᶦˣ", url_ch1)
+          replace_url_in_local(local_lines, "TOFFEE Match Recapeᵇᵈᶦˣ", url_ch6)
+
+          # Write the untouched lines + updated URLs back to your local file
+          with open(local_file, 'w', encoding='utf-8') as f:
+              f.writelines(local_lines)
+          EOF
+          
+          python3 update.py
+          rm update.py
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          git add playlist/TF/
-          
-          # Only commit if there are actual changes to prevent empty commits
-          if git diff-index --quiet HEAD --; then
-            echo "No changes detected in the playlist files."
-          else
-            git commit -m "Automated Playlist Update: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-            git push
-          fi
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist/wc.m3u
+          # This ensures the workflow only creates a commit if the script actually changed a URL
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update TOFFEE links from source playlist" && git push)
