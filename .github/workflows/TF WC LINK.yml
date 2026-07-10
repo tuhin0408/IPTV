@@ -1,100 +1,39 @@
-name: Update Edge Cache Playlists
+name: Auto Update TF Playlists
 
 on:
   schedule:
     # Runs every 15 minutes
     - cron: '*/15 * * * *'
-  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
 
 jobs:
-  update-cache:
+  update-playlists:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the updated files back to your repo
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch Latest Source Playlist and Extract Edge Cache
-        run: |
-          # 1. Download the target playlist file
-          curl -s -A "Mozilla/5.0" "https://raw.githubusercontent.com/srhady/toffee-bd/refs/heads/main/toffee_playlist.m3u" -o source.m3u
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-          # 2. Run a clean script to extract the token AND safely update the files
-          cat << 'EOF' > update_playlists.py
-import re
-import os
-import sys
-
-# Step A: Extract Token
-try:
-    with open("source.m3u", "r", encoding="utf-8") as f:
-        content = f.read()
-except Exception as e:
-    print(f"Error reading source file: {e}", file=sys.stderr)
-    sys.exit(1)
-
-token = ""
-
-# Look specifically around your channel ID block first
-if "V__o054BObUt2AG6LL5C" in content:
-    try:
-        segment = content.split("V__o054BObUt2AG6LL5C")[1][:1200]
-        match = re.search(r"edge-cache-token=[^\s\"'#]+", segment)
-        if match:
-            token = "?" + match.group(0)
-    except Exception:
-        pass
-
-# Fallback: Grab the first valid token anywhere in the playlist
-if not token:
-    match = re.search(r"edge-cache-token=[^\s\"'#]+", content)
-    if match:
-        token = "?" + match.group(0)
-
-if not token:
-    print("Error: Could not extract edge-cache-token from source.", file=sys.stderr)
-    sys.exit(1)
-
-print(f"Extracted Token successfully.")
-
-# Step B: Safe processing over your local target files
-target_files = ["playlist/TF/TF-1.m3u8", "playlist/TF/TF-6.m3u8"]
-
-for file_path in target_files:
-    if os.path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-        
-        updated_lines = []
-        for line in lines:
-            # If the line contains a live stream URL link, replace or append token
-            if "toffeelive.com" in line or ".m3u8" in line:
-                # Strip out any pre-existing query tokens or parameters cleanly
-                base_url = line.strip().split("?")[0]
-                updated_lines.append(base_url + token + "\n")
-            else:
-                updated_lines.append(line)
-                
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.writelines(updated_lines)
-        print(f"Updated: {file_path}")
-    else:
-        print(f"Warning: File not found at {file_path}")
-EOF
-
-          # 3. Execute the single process script
-          python3 update_playlists.py
+      - name: Run Update Script
+        run: python update_playlist.py
 
       - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add playlist/TF/TF-1.m3u8 playlist/TF/TF-6.m3u8
           
-          if ! git diff --cached --quiet; then
-            git commit -m "Automated Sync: Update edge-cache parameters"
+          # Only commit and push if there are actually changes to avoid failing the workflow
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update TF-1 and TF-6 playlist links"
             git push
           else
-            echo "No changes detected in tokens."
+            echo "No changes to commit."
           fi
