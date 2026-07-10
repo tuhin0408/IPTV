@@ -233,20 +233,6 @@ http://starhub.pro/farhat-3379/67897-913379/700.ts
 http://starhub.pro/farhat-3379/67897-913379/1219.ts
 #EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",IT: FOX Life HD
 http://starhub.pro/farhat-3379/67897-913379/1220.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib FOX_Business
-http://starhub.pro/farhat-3379/67897-913379/154101.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib FOX_News
-http://starhub.pro/farhat-3379/67897-913379/154102.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib FOX_Soccer_Plus
-http://starhub.pro/farhat-3379/67897-913379/154104.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib (FLOW) FOX (D)
-http://starhub.pro/farhat-3379/67897-913379/154361.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib (FLOW) Fox Sports 2 (D)
-http://starhub.pro/farhat-3379/67897-913379/154364.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib (FLOW) Fox Soccer Plus  (D)
-http://starhub.pro/farhat-3379/67897-913379/154365.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 3-FIFA",Carib (FLOW) Telemundo International (D)
-http://starhub.pro/farhat-3379/67897-913379/154473.ts
 #EXTINF:-1 tvg-logo="http://img-cdn.curl.pk:8880/channels_icon_api/408f7e979f699607d01d30b767a1f3b8.png" group-title="Server 3-FIFA",PT: FOX Movies FHD
 http://starhub.pro/farhat-3379/67897-913379/389195.ts
 #EXTINF:-1 tvg-logo="http://img-cdn.curl.pk:8880/channels_icon_api/3c9564c934cfdbd187b177fa92ba0e48.png" group-title="Server 3-FIFA",PT: FOX FHD
@@ -401,20 +387,6 @@ http://fastshare1.com/25711345/late8airline/700.ts
 http://fastshare1.com/25711345/late8airline/1219.ts
 #EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",IT: FOX Life HD
 http://fastshare1.com/25711345/late8airline/1220.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib FOX_Business
-http://fastshare1.com/25711345/late8airline/154101.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib FOX_News
-http://fastshare1.com/25711345/late8airline/154102.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib FOX_Soccer_Plus
-http://fastshare1.com/25711345/late8airline/154104.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib (FLOW) FOX (D)
-http://fastshare1.com/25711345/late8airline/154361.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib (FLOW) Fox Sports 2 (D)
-http://fastshare1.com/25711345/late8airline/154364.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib (FLOW) Fox Soccer Plus  (D)
-http://fastshare1.com/25711345/late8airline/154365.ts
-#EXTINF:-1 tvg-logo="" group-title="Server 4-FIFA",Carib (FLOW) Telemundo International (D)
-http://fastshare1.com/25711345/late8airline/154473.ts
 #EXTINF:-1 tvg-logo="http://img-cdn.curl.pk:8880/channels_icon_api/408f7e979f699607d01d30b767a1f3b8.png" group-title="Server 4-FIFA",PT: FOX Movies FHD
 http://fastshare1.com/25711345/late8airline/389195.ts
 #EXTINF:-1 tvg-logo="http://img-cdn.curl.pk:8880/channels_icon_api/3c9564c934cfdbd187b177fa92ba0e48.png" group-title="Server 4-FIFA",PT: FOX FHD
@@ -1063,10 +1035,10 @@ http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/641956.ts
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/2279.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/2278.jpg" group-title="Server 5-FIFA",UK Fox News HD
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/2278.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/735109.jpg" group-title="Server 5-FIFA",US (Peacock 014) | High Diving World Cup: Italy 1 (2026-07-11 05:02:00)
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/735109.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/735122.jpg" group-title="Server 5-FIFA",US (Peacock 027) | High Diving World Cup: Italy 2 (2026-07-12 05:02:00)
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/735122.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/735107.jpg" group-title="Server 5-FIFA",US (Peacock 012) | High Diving World Cup: Italy 1 (2026-07-11 05:00:00)
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/735107.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/735120.jpg" group-title="Server 5-FIFA",US (Peacock 025) | High Diving World Cup: Italy 2 (2026-07-12 05:00:00)
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/735120.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21561.jpg" group-title="Server 5-FIFA",USA Fox Business (SD)
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21561.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/3730.jpg" group-title="Server 5-FIFA",USA FOX Business Network (SHD)
@@ -1123,13 +1095,13 @@ http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/40630.ts
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/429798.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/638806.jpg" group-title="Server 5-FIFA",USA LiveNOW from FOX
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/638806.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21812.jpg" group-title="Server 5-FIFA",Soccer02: Vancouver FC vs CF Montréal ( Fox Soccer Plus Feed ) @ 10:00 pm
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21812.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21823.jpg" group-title="Server 5-FIFA",Soccer03: Vancouver FC vs CF Montréal ( FOX One Feed ) @ 10:00 pm
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21823.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21826.jpg" group-title="Server 5-FIFA",Soccer06: Vancouver Whitecaps vs Cavalry ( Fox Sports 2 USA Feed ) @ 10:30 pm
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21825.jpg" group-title="Server 5-FIFA",Soccer05: France vs Morocco ( FOX Network Feed ) @ 4:00 pm
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21825.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21826.jpg" group-title="Server 5-FIFA",Soccer06: France vs Morocco ( Telemundo Feed ) @ 4:00 pm
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21826.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21828.jpg" group-title="Server 5-FIFA",Soccer08: Vancouver Whitecaps vs Cavalry ( FOX One Feed ) @ 10:30 pm
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21827.jpg" group-title="Server 5-FIFA",Soccer07: France vs Morocco ( Telemundo Deportes En Vivo Feed ) @ 4:00 pm
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21827.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21828.jpg" group-title="Server 5-FIFA",Soccer08: France vs Morocco ( FOX One Feed ) @ 4:00 pm
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21828.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/3889.jpg" group-title="Server 5-FIFA",USA Telemundo 51 WSCV
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/3889.ts
