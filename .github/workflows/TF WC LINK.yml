@@ -1,0 +1,64 @@
+name: Update Edge Cache Playlists
+
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+
+      - name: Fetch Latest Source Playlist and Extract Edge Cache
+        run: |
+          # 1. Download the target playlist file
+          curl -s "https://raw.githubusercontent.com/srhady/toffee-bd/refs/heads/main/toffee_playlist.m3u" -o source.m3u
+
+          # 2. Find the line containing the specific tvg-id and get the URL on the next line
+          # This extracts the full ?edge-cache=... token string
+          TOKEN=$(awk '/tvg-id: V__o054BObUt2AG6LL5C/{getline; if(match($0, /\?edge-cache=[^"'\'' ]+/)) print substr($0, RSTART, RLENGTH)}' source.m3u)
+
+          echo "Extracted Token: $TOKEN"
+
+          if [ -z "$TOKEN" ]; then
+            echo "Error: Could not extract edge-cache token from source."
+            exit 1
+          fi
+
+          # 3. Update TF-1.m3u8 and TF-6.m3u8 inside playlist/TF/
+          # This replaces any existing ?edge-cache=... parameters in your target files
+          TARGET_DIR="playlist/TF"
+          
+          if [ -f "$TARGET_DIR/TF-1.m3u8" ]; then
+            sed -i -E "s/\?edge-cache=[^\"' ]*/$TOKEN/g" "$TARGET_DIR/TF-1.m3u8"
+            echo "Updated TF-1.m3u8"
+          else
+            echo "Warning: TF-1.m3u8 not found at $TARGET_DIR/TF-1.m3u8"
+          fi
+
+          if [ -f "$TARGET_DIR/TF-6.m3u8" ]; then
+            sed -i -E "s/\?edge-cache=[^\"' ]*/$TOKEN/g" "$TARGET_DIR/TF-6.m3u8"
+            echo "Updated TF-6.m3u8"
+          else
+            echo "Warning: TF-6.m3u8 not found at $TARGET_DIR/TF-6.m3u8"
+          fi
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add playlist/TF/TF-1.m3u8 playlist/TF/TF-6.m3u8
+          
+          # Only commit if changes exist to avoid empty commit failures
+          if ! git diff --cached --quiet; then
+            git commit -m "Automated Sync: Update edge-cache parameters"
+            git push
+          else
+            echo "No changes detected in tokens."
+          fi
