@@ -1,9 +1,6 @@
 name: Auto Update TF Playlists
 
 on:
-  schedule:
-    # Runs every 45 minutes
-    - cron: '*/45 * * * *'
   workflow_dispatch: # Allows you to run it manually from the Actions tab
 
 jobs:
