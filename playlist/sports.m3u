@@ -389,14 +389,14 @@ http://vca.easy747.com:80/donad220/8U01MGV/1281429
 #=================================
 #======= World Cup BD ================
 #EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="world cup",Football World Cup
-http://114.130.57.233:8080/BTV/video.m3u8?token=SkQuhAXZxgBan1
+http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="world cup",Football World Cup
 https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
 #====== Toffee World Cup ============
 #EXTINF:-1 tvg-id="toffee" tvg-name="Fifa World Cup" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Sports Channels",Toffee
 http://fifabangladesh.top/BRAZIL2/LIVE/play.m3u8?q=900&c=-2
 #EXTINF:-1 tvg-id="toffee" tvg-name="Fifa World Cup" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Sports Channels",Toffee
-http://sm-monirul.top/fifa/play/toffee3.m3u8
+https://babu.khelalive.top/vids/fika/stream.php?id=zUGrjZ4BuUSiBsg_1BeE
 #======  World Cup ============
 #EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png" ,DSPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
