@@ -889,8 +889,6 @@ http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/641956.ts
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/2279.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/2278.jpg" group-title="Server 5-FIFA",UK Fox News HD
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/2278.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/735096.jpg" group-title="Server 5-FIFA",US (Peacock 001) | High Diving World Cup: Italy 2 (2026-07-12 05:00:00)
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/735096.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21561.jpg" group-title="Server 5-FIFA",USA Fox Business (SD)
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21561.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/3730.jpg" group-title="Server 5-FIFA",USA FOX Business Network (SHD)
@@ -947,14 +945,10 @@ http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/40630.ts
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/429798.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/638806.jpg" group-title="Server 5-FIFA",USA LiveNOW from FOX
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/638806.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21812.jpg" group-title="Server 5-FIFA",Soccer02: Forge vs Saint-Laurent ( Fox Soccer Plus Feed ) @ 4:00 pm
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21812.jpg" group-title="Server 5-FIFA",Soccer02: Cavalry vs Vancouver Whitecaps ( Fox Sports 2 USA Feed ) @ 9:30 pm
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21812.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21823.jpg" group-title="Server 5-FIFA",Soccer03: Forge vs Saint-Laurent ( FOX One Feed ) @ 4:00 pm
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21823.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21826.jpg" group-title="Server 5-FIFA",Soccer06: CF Montréal vs Vancouver FC ( Fox Soccer Plus Feed ) @ 7:30 pm
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21826.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21827.jpg" group-title="Server 5-FIFA",Soccer07: CF Montréal vs Vancouver FC ( FOX One Feed ) @ 7:30 pm
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21827.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21824.jpg" group-title="Server 5-FIFA",Soccer04: Cavalry vs Vancouver Whitecaps ( FOX One Feed ) @ 9:30 pm
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21824.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/3889.jpg" group-title="Server 5-FIFA",USA Telemundo 51 WSCV
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/3889.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/2401.jpg" group-title="Server 5-FIFA",USA Telemundo Boston WNEU
