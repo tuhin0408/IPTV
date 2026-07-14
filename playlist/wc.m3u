@@ -5,11 +5,15 @@
 https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/7lPOTCc.png",TOFFEE Match Recapeᵇᵈᶦˣ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.79 Mobile Safari/537.36
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/index.m3u8?edge-cache-token=Expires=1783828115~Starts=1783820915~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiOTQ2YmNmNTQtZTAxZC00NjkzLThiYTQtMzExMTRiZjQxMjJmIn0~Signature=OEVaPm-aI5SrQlSvQMf2Ge2iBgfFnPeT5aAUN0hAzxovYz1FdVhVxdEz7hOlxdUKlMv5f4Bqvvqx6wzfYgWnCA
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rC9MoX7.png",🇧🇩 SomoyTVᵇᵈᶦˣ
+#https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/index.m3u8?edge-cache-token=Expires=1783828115~Starts=1783820915~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiOTQ2YmNmNTQtZTAxZC00NjkzLThiYTQtMzExMTRiZjQxMjJmIn0~Signature=OEVaPm-aI5SrQlSvQMf2Ge2iBgfFnPeT5aAUN0hAzxovYz1FdVhVxdEz7hOlxdUKlMv5f4Bqvvqx6wzfYgWnCA
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Wh1wuKM.png",🇧🇩 BTVᵇᵈᶦˣ
 http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wsFmfxG.png",🇧🇩 T Sportsᵇᵈᶦˣ
+http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rC9MoX7.png",🇧🇩 SomoyTVᵇᵈᶦˣ
-http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8
+http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xVuGWtu.png",🇵🇰 PTVᵇᵈᶦˣ
+http://103.165.93.31:8095/ptv/tracks-v1a1/mono.m3u8
 
 #====== Bioscope World Cup ============
 #EXTINF:-1 tvg-logo="https://i.imgur.com/w91OYEI.png",Bioscopeᵇᵈᶦˣ
