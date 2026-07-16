@@ -945,8 +945,14 @@ http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/40630.ts
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/429798.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/638806.jpg" group-title="Server 5-FIFA",USA LiveNOW from FOX
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/638806.ts
-#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/177038.jpg" group-title="Server 5-FIFA",MLB 01: American All-Stars VS National All-Stars (FOX Feed ) @ 20:00
-http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/177038.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/38039.jpg" group-title="Server 5-FIFA",Soccer01: World Cup : England vs Argentina @ 03:00pm EDT
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/38039.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21812.jpg" group-title="Server 5-FIFA",Soccer02: World Cup : England vs Argentina @ 03:00pm EDT
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21812.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21823.jpg" group-title="Server 5-FIFA",Soccer03: World Cup : England vs Argentina @ 03:00pm EDT
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21823.ts
+#EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/21824.jpg" group-title="Server 5-FIFA",Soccer04: World Cup : England vs Argentina @ 03:00pm EDT
+http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/21824.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/3889.jpg" group-title="Server 5-FIFA",USA Telemundo 51 WSCV
 http://s.rocketdns.info:8080/monstercable/Dq6jjknxCr/3889.ts
 #EXTINF:-1 tvg-logo="https://static.realiptv.to/snapshots/2401.jpg" group-title="Server 5-FIFA",USA Telemundo Boston WNEU
